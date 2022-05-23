@@ -1,0 +1,23 @@
+*{padding: 0;
+margin: 0;}
+
+body{ background-color: rgb(207, 184, 228);}
+
+.j{}
+
+.j3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+.j3 div{
+    border: 2px dotted black;
+    padding: 20px;
+    background-color: rgb(176, 236, 216);
+}
+.j3 div h3{
+    text-align: center;
+    text-decoration: underline;
+
+}
